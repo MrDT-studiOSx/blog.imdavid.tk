@@ -42,6 +42,14 @@ header ul {
 
 header ul li {
     float: left;   
+    position: relative;
+}
+
+header ul li ul {
+    position: absolute;
+    top: 66px;
+    right: 0px;
+    width: 180px;
 }
 
 header ul li a{
