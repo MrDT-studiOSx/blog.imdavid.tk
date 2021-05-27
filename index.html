@@ -8,11 +8,24 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/reset.css">
 <link rel="stylesheet" href="styles/debug.css">
+<style>
+    article{
+        display: grid;
+        grid-template-columns: 1fr minmax(0, 8.5in) 1fr;
+
+        height: 108vh;
+
+    }
+    article {grid-column:  2/3;}
+</style>
     </head>
     <body>
         <p>Welcome to my blog!</p>
         <p>
-            <a href="http://hi.imdavid.tk">Home page (Click me!)</a>
-            </p>
+            <!-- <a href="http://hi.imdavid.tk">Home page (Click me!)</a>
+            </p> -->
+            <article>
+                <p class="debug-centers"> Here will be article!</p>
+            </article>
     </body>
 </html>
