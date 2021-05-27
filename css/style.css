@@ -5,6 +5,7 @@ body {
     padding: 0px;
     margin: 0px;
     background: #f6f6f6;
+    font-family: 'Mate SC', serif;
 }
 header {
     background: #008489;
@@ -24,6 +25,7 @@ header .logo {
 
 header .logo-text {
     margin: 10px;
+    font-family: 'Sigmar One', cursive;
 }
 
 header .logo-text span{
@@ -32,7 +34,28 @@ header .logo-text span{
 
 header ul {
     float: right;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border: 1px solid red;
 }
+
+header ul li {
+    float: left;   
+}
+
+header ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+header ul li a:hover{
+    background: #003d3f;
+    transition: 0.35s;
+}
+
 header .menu-toggle {
     display: none;
 }
