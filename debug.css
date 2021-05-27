@@ -1,0 +1,5 @@
+body {
+    color: hsla(218, 108%, 180%, 0.88) !important;
+    background: hsla(218, 108%, 50%, 0.33) !important;
+    outline: 8.25rem solid hsla(218, 108%, 180%, 0.50) !important;
+}
