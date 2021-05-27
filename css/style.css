@@ -37,7 +37,7 @@ header ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    border: 1px solid red;
+
 }
 
 header ul li {
@@ -52,11 +52,31 @@ header ul li ul {
     width: 180px;
 }
 
+header ul li ul li {
+    width: 100%;
+}
+
+header ul li ul li a {
+    padding: 10px;
+    color: white;
+    background-color: #008489;
+}
+
+header ul li ul li a:hover {
+    background: #003d3f;
+    transition: 0.35s;
+}
+
 header ul li a{
     display: block;
     padding: 21px;
     font-size: 1.1em;
     text-decoration: none;
+}
+
+header ul li ul li a.logout {
+    color: red;
+    
 }
 
 header ul li a:hover{
