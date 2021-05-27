@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     padding: 0px;
     margin: 0px;
@@ -8,9 +11,23 @@ header {
     height: 66px;
 }
 
-logo {
-     float: left;
+header * {
+    color: white;
+}
 
+header .logo {
+     float: left;
+     height: inherit;
+     margin-left: 2em;
+
+}
+
+header .logo-text {
+    margin: 10px;
+}
+
+header .logo-text span{
+    color: #0f0094;
 }
 
 header ul {
