@@ -7,3 +7,15 @@ header {
     background: #008489;
     height: 66px;
 }
+
+logo {
+     float: left;
+
+}
+
+header ul {
+    float: right;
+}
+header .menu-toggle {
+    display: none;
+}
